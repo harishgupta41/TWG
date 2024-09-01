@@ -139,8 +139,10 @@ main{
 
 .offer{
     width: 66%;
-    height: 80vh;
-    border: 2px solid blue;
+    height: 75vh;
+    margin-top: 1em;
+    background-color: rgba(29,173,140,255) ;
+    border-radius: 2em;
     margin-right: 1em;
     overflow: hidden;
     /* padding: 1em; */
