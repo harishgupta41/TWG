@@ -10,8 +10,13 @@ service=db.services #creating collection
 service.insert_one({'name':'tshirt printing','price':'200'})
 
 @app.route('/')
+@app.route('/home')
 def index():
     return render_template('index.html')
+
+@app.route('/apparels')
+def apparels():
+    return render_template('apparels.html', title="Apparels")
 
 if __name__ == "__main__":
     app.run(debug=True)

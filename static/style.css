@@ -93,11 +93,15 @@ main{
 }
 .services{
     width: 16%;
+    min-width: 180px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.services a{
+    text-decoration: none;
 }
 .services .item{
     width: 100%;
@@ -123,30 +127,38 @@ main{
 .offer{
     width: 66%;
     height: 75vh;
-    margin-top: 1em;
+    margin: 1em;
+    /* margin-top: 1em; */
     background-color: rgba(29,173,140,255) ;
     border-radius: 2em;
-    margin-right: 1em;
+    /* margin-right: 1em; */
     overflow: hidden;
-    opacity: 1;
+    display: flex; /* Helps image alignment */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* position: relative; */
+    /* opacity: 1; */
 }
 
 .slideshow-container {
     position: relative;
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .slide {
-    display: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 .fade {
