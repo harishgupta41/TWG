@@ -20,14 +20,14 @@ def apparels():
 
 @app.route('/businessEssentials')
 def businessEss():
-    return render_template('businessEss.html',title='Business Essentials')
+    return render_template('bussinessEss.html',title='Business Essentials')
 
 @app.route('/customiseGifts')
 def customGifts():
     return render_template('customGift.html',title='Customise Gifts')
 
 @app.route('/designingServices')
-def designGifts():
+def designServices():
     return render_template('designServ.html',title='Designing Services')
 
 @app.route('/singages')
