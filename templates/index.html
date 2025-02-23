@@ -45,10 +45,10 @@
         <nav>
           <a href="{{url_for('index')}}">HOME</a>
           <a href="{{url_for('apparels')}}">APPARELS</a>
-          <a href="#">BUSINESS ESSENTIALS</a>
-          <a href="#">CUSTOMISE GIFTS</a>
-          <a href="#">SIGNAGES</a>
-          <a href="#">DESIGNING SERVICES</a>
+          <a href="{{url_for('businessEss')}}">BUSINESS ESSENTIALS</a>
+          <a href="{{url_for('customGifts')}}">CUSTOMISE GIFTS</a>
+          <a href="{{url_for('singages')}}">SIGNAGES</a>
+          <a href="{{url_for('designingServices')}}">DESIGNING SERVICES</a>
         </nav>
       </div>
     </header>
@@ -62,12 +62,16 @@
         </a>
         </div>
         <div class="item">
+          <a href="{{url_for('businessEss')}}">
           <img src="../static/img/Business Essentials.png" alt="Business Essentials" />
           <p>Business Essentials</p>
+        </a>
         </div>
         <div class="item">
+          <a href="{{url_for('customGifts')}}">
           <img src="../static/img/Customised Gift.png" alt="Customised Gifts" />
           <p>Customised Gifts</p>
+        </a>
         </div>
       </div>
       <div class="offer">
@@ -82,7 +86,6 @@
               <img src="../static/img/Customised Gift.png" alt="Slide 3">
           </div>
       </div>
-      
       </div>
       <div class="help">
         <div class="helpdesk">
