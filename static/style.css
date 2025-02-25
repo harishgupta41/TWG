@@ -286,7 +286,8 @@ main{
 .app p{
     margin-top: -40px;
 }
-.item:hover{
+.app .item:hover{
+    cursor: pointer;
     transition: .3s ease-in;
     transform: scale(1.05) ;
     box-shadow: 0 0 25px rgba(29,173,140,255);
