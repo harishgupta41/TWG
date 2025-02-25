@@ -255,6 +255,34 @@ main{
     color:rgba(241,229,0,255);
 }
 
+.app{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.app .item{
+    /* border: 1px solid black; */
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.app img{
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 0px 5px 0px;
+}
+.app p{
+    margin-top: -40px;
+}
+
 @media only screen and (width < 770px) {
     header .top .left .txt{
         height: 45px;
